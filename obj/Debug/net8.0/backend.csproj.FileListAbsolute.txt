@@ -312,3 +312,4 @@
 /Users/omerpeled/Desktop/FullProject/obj/Debug/net8.0/backend.pdb
 /Users/omerpeled/Desktop/FullProject/obj/Debug/net8.0/backend.genruntimeconfig.cache
 /Users/omerpeled/Desktop/FullProject/obj/Debug/net8.0/ref/backend.dll
+/Users/omerpeled/Desktop/FullProject/obj/Debug/net8.0/backend.sourcelink.json
