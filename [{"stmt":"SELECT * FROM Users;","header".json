@@ -1,0 +1,33 @@
+[
+  {
+    "stmt": "SELECT * FROM Users;",
+    "header": [
+      "Id",
+      "UserName",
+      "Password",
+      "FirstName",
+      "LastName",
+      "Email",
+      "Phone",
+      "BirthDate",
+      "Gender",
+      "FavoriteCar",
+      "Role"
+    ],
+    "rows": [
+      [
+        "1",
+        "omerpeled",
+        "123456",
+        "omer",
+        "peled",
+        "omer@gmail.com",
+        "0508334100",
+        "1999-04-03 00:00:00",
+        "Male",
+        "BMW",
+        "Admin"
+      ]
+    ]
+  }
+]

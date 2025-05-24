@@ -1,0 +1,72 @@
+@page
+@model backend.Pages.Users.UsersListModel
+@{
+    ViewData["Title"] = "Users List";
+}
+
+<h2>All Users</h2>
+
+@if (!Model.IsAdmin)
+{
+    <p style="color:red;">Access Denied. Only Admins can view this page.</p>
+}
+else
+{
+    <form method="get" class="mb-3">
+        <div class="form-group">
+            <input type="text" name="search" value="@Model.SearchTerm" placeholder="Search by name or username" class="form-control" />
+        </div>
+        <div class="form-group">
+            <select name="sortBy" class="form-control mt-2">
+                <option value="">-- Sort By --</option>
+                <option value="name" selected="@(Model.SortBy == "name")">Name</option>
+                <option value="birth" selected="@(Model.SortBy == "birth")">Birth Date</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary mt-2">Search</button>
+    </form>
+
+    <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>UserName</th>
+                <th>Password</th>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>BirthDate</th>
+                <th>Gender</th>
+                <th>Favorite Car</th>
+                <th>Role</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model.Users)
+            {
+                <tr>
+                    <td>@user.UserName</td>
+                    <td>@user.Password</td>
+                    <td>@user.FirstName @user.LastName</td>
+                    <td>@user.Email</td>
+                    <td>@user.Phone</td>
+                    <td>@(user.BirthDate?.ToString("yyyy-MM-dd"))</td>
+                    <td>@user.Gender</td>
+                    <td>@user.FavoriteCar</td>
+                    <td>@user.Role</td>
+                    <td>
+                        <a class="btn btn-primary btn-sm me-1"
+                           href="/Users/EditUser?id=@user.Id">
+                           Edit
+                        </a>
+                        <a class="btn btn-danger btn-sm"
+                           href="/Users/DeleteUser?id=@user.Id"
+                           onclick="return confirm('Are you sure you want to delete this user?')">
+                           Delete
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

@@ -1,0 +1,57 @@
+@page
+@model backend.Pages.Users.BugattiModel
+@{
+    ViewData["Title"] = "Bugatti";
+    Layout = "_Layout"; 
+}
+
+@section Scripts {
+    <link rel="stylesheet" href="~/css/cars.css" />
+}
+
+<div class="containerAll">
+    <div class="form-card">
+        <header>
+            <h1 class="carTitle">Fast car - 🚗</h1>
+        </header>
+
+        <h1 class="carTitle">Bugatti</h1>
+
+        <img class="img" src="~/img/bugatti.jpeg" alt="Bugatti" />
+
+        <div class="table mt-3">
+            <table>
+                <thead>
+                    <tr>
+                        <th>סוגים</th>
+                        <th>מחיר</th>
+                        <th>מהירות שיא</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bugatti Veyron</td>
+                        <td>1.9 מיליון דולר</td>
+                        <td>400 קמ"ש</td>
+                    </tr>
+                    <tr>
+                        <td>Bugatti Chiron</td>
+                        <td>2.9 מיליון דולר</td>
+                        <td>440 קמ"ש</td>
+                    </tr>
+                    <tr>
+                        <td>Bugatti W16 Mistral</td>
+                        <td>5 מיליון דולר</td>
+                        <td>431 קמ"ש</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p class="mt-3">
+            Bugatti is a renowned brand for luxury and high-performance sports cars, founded in 1909 by Ettore Bugatti.
+        </p>
+        <p>The brand is famous for modern models like the Veyron and Chiron, which can exceed speeds of 400 km/h.</p>
+        <p>Bugatti is currently owned by Volkswagen Group.</p>
+    </div>
+</div>

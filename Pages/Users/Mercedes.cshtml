@@ -1,0 +1,57 @@
+@page
+@model backend.Pages.Users.MercedesModel
+@{
+    ViewData["Title"] = "Mercedes";
+    Layout = "_Layout";
+}
+
+@section Scripts {
+    <link rel="stylesheet" href="~/css/cars.css" />
+}
+
+<div class="containerAll">
+    <div class="form-card">
+        <header>
+            <h1 class="carTitle">Fast car - 🚗</h1>
+        </header>
+
+        <h1 class="carTitle">Mercedes</h1>
+
+        <img class="img" src="~/img/mercedes.jpeg" alt="Mercedes" />
+
+        <div class="table mt-3">
+            <table>
+                <thead>
+                    <tr>
+                        <th>סוגים</th>
+                        <th>מחיר</th>
+                        <th>מהירות שיא</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mercedes-AMG GT</td>
+                        <td>150,000 דולר</td>
+                        <td>310 קמ"ש</td>
+                    </tr>
+                    <tr>
+                        <td>Mercedes S-Class</td>
+                        <td>110,000 דולר</td>
+                        <td>250 קמ"ש</td>
+                    </tr>
+                    <tr>
+                        <td>Mercedes G-Class</td>
+                        <td>130,000 דולר</td>
+                        <td>210 קמ"ש</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p class="mt-3">
+            Mercedes-Benz is a German automotive brand known for luxury, quality, and innovation.
+        </p>
+        <p>They produce everything from sedans and SUVs to performance sports cars under the AMG line.</p>
+        <p>Mercedes is a division of the company Mercedes-Benz Group AG.</p>
+    </div>
+</div>

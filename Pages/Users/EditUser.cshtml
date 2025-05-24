@@ -1,0 +1,77 @@
+@page
+@model backend.Pages.Users.EditUserModel
+@{
+    ViewData["Title"] = "Edit User";
+}
+
+<h2>Edit User</h2>
+
+@if (!Model.IsAdmin)
+{
+    <p class="text-danger">Access denied. Admins only.</p>
+}
+else if (Model.UserToEdit != null)
+{
+    <form method="post">
+        <input type="hidden" asp-for="UserToEdit.Id" />
+
+        <div class="mb-3">
+            <label asp-for="UserToEdit.UserName" class="form-label"></label>
+            <input asp-for="UserToEdit.UserName" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="UserToEdit.Password" class="form-label"></label>
+            <input asp-for="UserToEdit.Password" class="form-control" type="password" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="UserToEdit.FirstName" class="form-label"></label>
+            <input asp-for="UserToEdit.FirstName" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="UserToEdit.LastName" class="form-label"></label>
+            <input asp-for="UserToEdit.LastName" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="UserToEdit.Email" class="form-label"></label>
+            <input asp-for="UserToEdit.Email" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="UserToEdit.Phone" class="form-label"></label>
+            <input asp-for="UserToEdit.Phone" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="UserToEdit.BirthDate" class="form-label"></label>
+            <input asp-for="UserToEdit.BirthDate" class="form-control" type="date" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="UserToEdit.Gender" class="form-label"></label>
+            <select asp-for="UserToEdit.Gender" class="form-select">
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="UserToEdit.FavoriteCar" class="form-label"></label>
+            <input asp-for="UserToEdit.FavoriteCar" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="UserToEdit.Role" class="form-label"></label>
+            <select asp-for="UserToEdit.Role" class="form-select">
+                <option>User</option>
+                <option>Admin</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-success">Save Changes</button>
+        <a href="/Users/UsersList" class="btn btn-secondary">Cancel</a>
+    </form>
+}

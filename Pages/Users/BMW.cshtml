@@ -1,0 +1,57 @@
+@page
+@model backend.Pages.Users.BMWModel
+@{
+    ViewData["Title"] = "BMW";
+    Layout = "_Layout";
+}
+
+@section Scripts {
+    <link rel="stylesheet" href="~/css/cars.css" />
+}
+
+<div class="containerAll">
+    <div class="form-card">
+        <header>
+            <h1 class="carTitle">Fast car - 🚗</h1>
+        </header>
+
+        <h1 class="carTitle">BMW</h1>
+
+        <img class="img" src="~/img/BMW.jpg" alt="BMW" />
+
+        <div class="table mt-3">
+            <table>
+                <thead>
+                    <tr>
+                        <th>סוגים</th>
+                        <th>מחיר</th>
+                        <th>מהירות שיא</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BMW M3</td>
+                        <td>70,000 דולר</td>
+                        <td>280 קמ"ש</td>
+                    </tr>
+                    <tr>
+                        <td>BMW i8</td>
+                        <td>140,000 דולר</td>
+                        <td>250 קמ"ש</td>
+                    </tr>
+                    <tr>
+                        <td>BMW X6 M</td>
+                        <td>110,000 דולר</td>
+                        <td>290 קמ"ש</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p class="mt-3">
+            BMW is a German multinational company that produces luxury vehicles and motorcycles.
+        </p>
+        <p>Known for models like the M series, X series, and i electric line, BMW combines performance with innovation.</p>
+        <p>BMW stands for Bayerische Motoren Werke AG, and it's known for its engineering excellence and driving dynamics.</p>
+    </div>
+</div>

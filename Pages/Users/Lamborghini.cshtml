@@ -1,0 +1,57 @@
+@page
+@model backend.Pages.Users.LamborghiniModel
+@{
+    ViewData["Title"] = "Lamborghini";
+    Layout = "_Layout";
+}
+
+@section Scripts {
+    <link rel="stylesheet" href="~/css/cars.css" />
+}
+
+<div class="containerAll">
+    <div class="form-card">
+        <header>
+            <h1 class="carTitle">Fast car - 🚗</h1>
+        </header>
+
+        <h1 class="carTitle">Lamborghini</h1>
+
+        <img class="img" src="~/img/lamborghini.jpeg" alt="Lamborghini" />
+
+        <div class="table mt-3">
+            <table>
+                <thead>
+                    <tr>
+                        <th>סוגים</th>
+                        <th>מחיר</th>
+                        <th>מהירות שיא</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lamborghini Aventador</td>
+                        <td>400,000 דולר</td>
+                        <td>350 קמ"ש</td>
+                    </tr>
+                    <tr>
+                        <td>Lamborghini Huracán</td>
+                        <td>210,000 דולר</td>
+                        <td>325 קמ"ש</td>
+                    </tr>
+                    <tr>
+                        <td>Lamborghini Revuelto</td>
+                        <td>600,000 דולר</td>
+                        <td>350 קמ"ש</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p class="mt-3">
+            Lamborghini is an Italian brand and manufacturer of luxury sports cars and SUVs.
+        </p>
+        <p>Founded in 1963, Lamborghini is known for its aggressive styling and V10/V12 engines.</p>
+        <p>The company is currently owned by the Volkswagen Group through its subsidiary Audi.</p>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    Layout = "_Layout"; 
+}
+
+@section Scripts {
+    <link rel="stylesheet" href="~/css/index.css" />
+}
+
+<div class="containerAll">
+  <div class="form-card">
+    <header>
+      <h1 class="carTitle">Fast car - 🚗</h1>
+    </header>
+
+    <p>Race cars are specially designed vehicles for motorsport competitions, such as Formula 1, Indy 500, Le Mans, drag racing, and more.</p>
+    <p>These cars are engineered for maximum performance on the track, focusing on speed, control, stability, and rapid acceleration.</p>
+    <p>They are equipped with powerful engines, advanced suspension systems, and high-performance brakes to handle sharp corners and high speeds.</p>
+    <p>Race cars are not only built for the thrill of driving but also to advance automotive technologies that can later be applied to civilian vehicles.</p>
+
+    <img id="homeImg" src="@Url.Content("~/img/homeImage.jpeg")" alt="Race Car" />
+
+  </div>
+</div>
