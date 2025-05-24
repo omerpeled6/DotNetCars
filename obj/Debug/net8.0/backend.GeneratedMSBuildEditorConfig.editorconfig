@@ -17,75 +17,75 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = backend
 build_property.RootNamespace = backend
-build_property.ProjectDir = /Users/omerpeled/Desktop/FullProject/
+build_property.ProjectDir = /Users/omerpeled/Desktop/FullProjectBido/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/omerpeled/Desktop/FullProject
+build_property.MSBuildProjectDirectory = /Users/omerpeled/Desktop/FullProjectBido
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/omerpeled/Desktop/FullProject/Pages/Index.cshtml]
+[/Users/omerpeled/Desktop/FullProjectBido/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/omerpeled/Desktop/FullProject/Pages/Shared/_Layout.cshtml]
+[/Users/omerpeled/Desktop/FullProjectBido/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/omerpeled/Desktop/FullProject/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/omerpeled/Desktop/FullProjectBido/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/omerpeled/Desktop/FullProject/Pages/Users/BMW.cshtml]
+[/Users/omerpeled/Desktop/FullProjectBido/Pages/Users/BMW.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMvQk1XLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/omerpeled/Desktop/FullProject/Pages/Users/Bugatti.cshtml]
+[/Users/omerpeled/Desktop/FullProjectBido/Pages/Users/Bugatti.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMvQnVnYXR0aS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/omerpeled/Desktop/FullProject/Pages/Users/DeleteUser.cshtml]
+[/Users/omerpeled/Desktop/FullProjectBido/Pages/Users/DeleteUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMvRGVsZXRlVXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/omerpeled/Desktop/FullProject/Pages/Users/EditUser.cshtml]
+[/Users/omerpeled/Desktop/FullProjectBido/Pages/Users/EditUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMvRWRpdFVzZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/omerpeled/Desktop/FullProject/Pages/Users/Ferrari.cshtml]
+[/Users/omerpeled/Desktop/FullProjectBido/Pages/Users/Ferrari.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMvRmVycmFyaS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/omerpeled/Desktop/FullProject/Pages/Users/Lamborghini.cshtml]
+[/Users/omerpeled/Desktop/FullProjectBido/Pages/Users/Lamborghini.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMvTGFtYm9yZ2hpbmkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/omerpeled/Desktop/FullProject/Pages/Users/Login.cshtml]
+[/Users/omerpeled/Desktop/FullProjectBido/Pages/Users/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMvTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/omerpeled/Desktop/FullProject/Pages/Users/Logout.cshtml]
+[/Users/omerpeled/Desktop/FullProjectBido/Pages/Users/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMvTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/omerpeled/Desktop/FullProject/Pages/Users/Mercedes.cshtml]
+[/Users/omerpeled/Desktop/FullProjectBido/Pages/Users/Mercedes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMvTWVyY2VkZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/omerpeled/Desktop/FullProject/Pages/Users/Register.cshtml]
+[/Users/omerpeled/Desktop/FullProjectBido/Pages/Users/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMvUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/omerpeled/Desktop/FullProject/Pages/Users/UsersList.cshtml]
+[/Users/omerpeled/Desktop/FullProjectBido/Pages/Users/UsersList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMvVXNlcnNMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/omerpeled/Desktop/FullProject/Pages/_ViewImports.cshtml]
+[/Users/omerpeled/Desktop/FullProjectBido/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/omerpeled/Desktop/FullProject/Pages/_ViewStart.cshtml]
+[/Users/omerpeled/Desktop/FullProjectBido/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

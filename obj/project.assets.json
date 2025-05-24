@@ -3222,11 +3222,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/omerpeled/Desktop/FullProject/backend.csproj",
+      "projectUniqueName": "/Users/omerpeled/Desktop/FullProjectBido/backend.csproj",
       "projectName": "backend",
-      "projectPath": "/Users/omerpeled/Desktop/FullProject/backend.csproj",
+      "projectPath": "/Users/omerpeled/Desktop/FullProjectBido/backend.csproj",
       "packagesPath": "/Users/omerpeled/.nuget/packages/",
-      "outputPath": "/Users/omerpeled/Desktop/FullProject/obj/",
+      "outputPath": "/Users/omerpeled/Desktop/FullProjectBido/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/omerpeled/.nuget/NuGet/NuGet.Config"
