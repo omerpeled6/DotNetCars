@@ -15,13 +15,6 @@ A full-stack ASP.NET Core Razor Pages project that allows users to register, log
 
 ---
 
-## 📸 Screenshots
-
-<img src="img/homeImage.jpeg" alt="Home" width="400"/>
-<img src="img/bugatti.jpeg" alt="Bugatti" width="400"/>
-
----
-
 ## 🚀 Features
 
 - ✅ User registration (with validations)
